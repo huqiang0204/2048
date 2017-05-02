@@ -1,0 +1,17 @@
+﻿<Window x:Class="huqiang2048.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:huqiang2048"
+        xmlns:a="clr-namespace:huqiang2048.rs"
+        mc:Ignorable="d"
+        Title="huqiang2048" Height="600" Width="529" ResizeMode="CanMinimize">
+    <Canvas x:Name="main_can">
+        <a:RTButton x:Name="start" Width="60" Height="24" Canvas.Left="10" Canvas.Top="10">
+            <a:RTButton.RTContent>开始游戏</a:RTButton.RTContent>
+            <a:RTButton.Corner>5,5,5,5</a:RTButton.Corner>
+        </a:RTButton>
+        <Image  Source="E:\learn\huqiang2048\huqiang2048\rs\2048.png" Width="500" Height="500" Canvas.Left="10" Canvas.Top="61"></Image>
+    </Canvas>
+</Window>
